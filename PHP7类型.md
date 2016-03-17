@@ -1,6 +1,34 @@
 # PHP7类型
 [TOC]
 
+## php&internal type
+```c
+/* regular data types */ // 常规类型 php8种类型
+#define IS_UNDEF					0 // php undefined类型
+#define IS_NULL						1 // php null类型
+#define IS_FALSE					2 // php bool false
+#define IS_TRUE						3 // php bool true
+#define IS_LONG						4 // php int
+#define IS_DOUBLE					5 // php float
+#define IS_STRING					6 // php string
+#define IS_ARRAY					7 // php array
+#define IS_OBJECT					8 // php object
+#define IS_RESOURCE					9 // php resource
+#define IS_REFERENCE				10 // php &$variable
+
+/* constant expressions */ // 常量表达式
+#define IS_CONSTANT					11 // php const | define()
+#define IS_CONSTANT_AST				12 // php const | define() 抽象语法树
+
+/* fake types */ // 伪类型
+#define _IS_BOOL					13 // bool
+#define IS_CALLABLE					14 // callable
+
+/* internal types */ // 内部类型
+#define IS_INDIRECT             	15 // 间接引用
+#define IS_PTR						17 // 指针
+```
+
 ## 基本类型
 
 ```c
