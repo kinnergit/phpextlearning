@@ -12,7 +12,7 @@ Zend Engine v3.0.0, Copyright (c) 1998-2016 Zend Technologies
 2. 数组使用`print_r($arr)`输出
 
 @Auth : [Kinner](china_nzf@163.com)
-@githut: [phpextlearning](https://github.com/kinnergit/phpextlearning)
+@Githut: [phpextlearning](https://github.com/kinnergit/phpextlearning)
 
 # 书写格式如下
 
